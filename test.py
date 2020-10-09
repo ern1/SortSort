@@ -9,5 +9,5 @@ if __name__ == '__main__':
     l = [1, 2, 3, 4923847293874, 9, 10]
     
     print(f"{l}\nSorted: {is_sorted(l)}\n") # not sorted as you would expect   
-    SortSort(l, heepsort, heepsort)         # call sort function
+    SortSort(l, heepsort, quit_sort)         # call sort function
     print(f"{l}\nSorted: {is_sorted(l)}\n") # and just like that, it is still not sorted

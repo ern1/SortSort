@@ -1,14 +1,15 @@
 from itertools import permutations
 from collections import abc
 
-def swat(seq: abc.MutableSequence, i, j):
+def process_transaction(seq: abc.MutableSequence, i, j):
     seq[i], seq[j] = seq[j], seq[i]
 
 def help_sort(it: abc.Iterable):
     return sorted(it)
 
 def quit_sort(it: abc.Iterable):
-    return it
+    it
+    pass
 
 # TODO: implementera
 def long_sort(it: abc.Iterable):

@@ -1,7 +1,7 @@
-from collections import abc, Sequence
+from collections.abc import Sequence, Iterable
 
 def sort_sort(seq: Sequence, fn1, fn2) -> list:
-    assert isinstance(seq, (Sequence, abc.Iterable)), "(-__-)┌∩┐" # lol
+    assert isinstance(seq, (Sequence, Iterable)), "(-__-)┌∩┐" # lol
     
     size = len(seq)
     l1, l2 = fn1(seq[:size]), fn2(seq[size:])
